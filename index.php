@@ -8,5 +8,5 @@ $file = fopen($file, "a");
 $data = "<pre><b>User IP</b>: $ip <b> Browser</b>: $browser <br>on Time : $dateTime <br></pre>";
 fwrite($file, $data);
 fclose($file);
-header('url=https://google.com/');
+header('Location: https://google.com/');
 ?> 
